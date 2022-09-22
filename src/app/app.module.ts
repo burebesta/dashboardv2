@@ -20,6 +20,8 @@ import {randomUserEffects} from 'src/app/store/random-user-store/random-users.ef
 import { NgChartsModule } from 'ng2-charts';
 
 
+
+
 @NgModule({
   declarations: [
     AppComponent,
