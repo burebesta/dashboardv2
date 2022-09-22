@@ -1,0 +1,41 @@
+.container {
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.dashboard {
+  display: flex;
+  width: 90%;
+  height: 100px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--color-primary);
+  border-radius: 15px;
+  margin: 25px 0;
+  padding: 0 20px;
+  cursor: pointer;
+}
+
+.svg-container {
+  width: 40px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.svg-container >svg {
+  transform: scale(0.7);
+}
+
+.dashboard-content {
+  display: flex;
+  gap: 20px;
+}
+
+
+.svg-container-small {
+  width: 30px;
+}

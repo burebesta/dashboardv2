@@ -1,0 +1,41 @@
+.container {
+  width: 100%;
+  background-color: var(--color-blue);
+  max-height: 300px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px 20px;
+  text-align: center;
+  color: white;
+}
+svg {
+  background-color: white;
+  border-radius: 50%;
+  fill: var(--color-blue);
+  width: 32px;
+  margin-bottom: 10px;
+}
+
+.title-para {
+  font-weight: 600;
+}
+
+.btn {
+  margin-top: 10px;
+  width: 100px;
+  height: 50px;
+  background-color: white;
+  color: var(--color-blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background-color: var(--color-primary);
+}

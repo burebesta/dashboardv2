@@ -1,0 +1,21 @@
+<div class="container">
+  <div class="container-content">
+    
+      <div class="svg-container" [ngStyle]="{ 'background-color': color}">
+        <svg class="svg-icon" viewBox="0 0 24 24" >
+          <path fill='white' [attr.d]="path"></path>
+        </svg>
+      </div>
+    
+    <div class="info">
+      <p class="quantity">{{number}}</p>
+      <p>{{text}}</p>
+    </div>
+  </div>
+  <div class="arrow" >
+    <svg>
+      <path  [ngStyle]="{ 'fill': color }" d="m10 17 5-5-5-5v10z"></path>
+    </svg>
+  </div>
+</div>
+

@@ -1,0 +1,22 @@
+.container {
+  padding: 10px;
+  margin-bottom:  10px;
+}
+
+.full-length {
+  width: 100%;
+  height: 20px;
+  position: relative;
+  border-radius: 10px;
+}
+
+.percentage-length {
+  position: absolute;
+  height: 20px;
+  border-radius: 10px;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+}

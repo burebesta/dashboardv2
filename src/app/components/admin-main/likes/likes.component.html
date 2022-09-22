@@ -1,0 +1,12 @@
+<div>
+  <app-likes-individual 
+  *ngFor="let item of array, let i = index"
+  [text]="item[0]" 
+  [color]="item[1]"
+  [path]="item[2]"
+  [number]="numberList[i]"
+></app-likes-individual>
+
+</div>
+
+

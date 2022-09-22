@@ -1,0 +1,6 @@
+.logo-svg {
+  stroke: var(--color-dark-gray);
+  stroke-width: 8px; 
+  stroke-linecap: round; 
+  stroke-linejoin: round;
+}

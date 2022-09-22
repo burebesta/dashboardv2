@@ -1,0 +1,11 @@
+<div class="container">
+  <h1>Meetings</h1>
+  
+  <div class="user" *ngFor="let user of users$">
+    <img class="user-avatar" [src]="user.avatar" alt="">
+    <p>{{user.first_name}} {{user.last_name}}</p>
+  </div>
+  <div class="user user-add" >
+    <p>+</p>
+  </div>
+

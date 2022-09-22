@@ -1,0 +1,21 @@
+.header {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 50px;
+}
+
+.header-svg {
+  width: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-svg:hover {
+  cursor: pointer;
+  background-color: var(--color-btn-hover);
+  outline: 10px solid var(--color-btn-hover);
+  border-radius: 50%;
+}

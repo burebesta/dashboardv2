@@ -1,0 +1,35 @@
+.container {
+  background-color: white;
+  border-radius: 15px;
+  padding: 20px calc(5px + 10%);
+  margin-top: 20px;
+}
+
+.user {
+  display: flex;
+  background-color: var(--color-primary);
+  border-radius: 120px;
+  gap: 15%;
+  padding-right: 10px;
+  align-items: center;
+  margin: 20px auto;
+}
+
+.user:hover {
+  cursor: pointer;
+  background-color: var(--color-btn-hover);
+}
+.user-avatar {
+  width: 60px;
+  background-color: var(--color-blue);
+  border-radius: 50%;
+}
+
+.user-add {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 800;
+  font-size: 2rem;
+}

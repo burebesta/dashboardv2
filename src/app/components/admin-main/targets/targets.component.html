@@ -1,0 +1,9 @@
+<div class="container">
+  <h1>Targets</h1>
+  <app-target-element
+    *ngFor="let item of dataArray, let i = index"
+    [text]="item[0]"
+    [color]="item[1]"
+    [number]="numberList[i]"
+  ></app-target-element>
+</div>

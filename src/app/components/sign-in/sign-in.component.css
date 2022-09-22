@@ -1,0 +1,103 @@
+
+.sign-in-container {
+  padding: 5%;
+  color: var(--color-dark-gray);
+}
+
+.top-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.settings-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.settings-svg-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.settings-svg {
+  width: var(--fz-h1);
+  margin: 20px;
+  fill: var(--color-dark-gray);
+}
+
+.settings-svg:hover {
+  background-color: var(--color-primary);
+  border-radius: 50%;
+  outline: 10px solid var(--color-primary);
+  cursor: pointer;
+}
+
+.logo-sign-in-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding-top: 30px;
+}
+
+.sign-in-title {
+  font-size: var(--fz-h1);
+  font-weight: 500;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 500px;
+  margin: 50px auto 0 auto;
+  padding: 0 5%;
+  gap: 15px;
+}
+
+mat-form-field::after {
+  content: '';
+  width: 500px;
+  height: 100px;
+  background-color: red;
+}
+
+.forgot-pwd {
+  text-align: end;
+  margin-top: -15px;
+}
+
+.forgot-pwd >a {
+  text-decoration: none;
+}
+
+.sign-in-btn {
+  height: 50px;
+  border: none;
+  background-color: var(--color-blue);
+  color: white;
+  font-size: var(--fz-body);
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.sign-up-para {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  color: var(--color-blue)
+}
+
+.sign-up-para >a {
+  text-decoration: none;
+}
+
+.sign-up-para:hover {
+  background-color: var(--color-primary);
+  cursor: pointer;
+  border-radius: 5px;
+}
