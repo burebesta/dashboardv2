@@ -8,7 +8,7 @@ export interface User {
 }
 
 export const initialUserState: User = {
-  email: 'xd',
+  email: '',
   password: '',
   isLogged: false
 }
