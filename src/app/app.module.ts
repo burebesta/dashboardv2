@@ -11,13 +11,14 @@ import { SignInComponent } from './components/sign-in/sign-in.component';
 import { HomeComponent } from './components/home/home.component';
 import { StoreModule } from '@ngrx/store';
 import { menuReducer } from './store/store.reducer'
-import { userReducer } from './store/user-store/user-reducer';
+import { userReducer, metaReducerLocalStorage } from './store/user-store/user-reducer';
 import { EffectsModule } from '@ngrx/effects'
 import { numberEffects } from 'src/app/store/random-number-store/random-number-effects'
 import { numberReducer } from './store/random-number-store/random-number-reducers';
 import { randomUserReducer } from 'src/app/store/random-user-store/random-users.reducers'
 import {randomUserEffects} from 'src/app/store/random-user-store/random-users.effects';
 import { NgChartsModule } from 'ng2-charts';
+
 
 
 
@@ -38,7 +39,7 @@ import { NgChartsModule } from 'ng2-charts';
     MatFormFieldModule,
     MatInputModule,
     HttpClientModule,
-    StoreModule.forRoot({menuStatus: menuReducer, userCredentials: userReducer, numbers:numberReducer,randomUser:randomUserReducer}),
+    StoreModule.forRoot({menuStatus: menuReducer, userCredentials: userReducer, numbers:numberReducer,randomUser:randomUserReducer}, {metaReducers:[metaReducerLocalStorage]}),
     EffectsModule.forRoot([numberEffects,randomUserEffects]),
     NgChartsModule
   ],
